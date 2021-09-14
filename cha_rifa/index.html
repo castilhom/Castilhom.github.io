@@ -539,7 +539,7 @@
 </div>
                  <br>
                     <div class="d-grid">
-                      <button class="btn btn-danger hover-top btn-glow border-0" type="submit" data-toggle="modal" data-target="#exampleModal">Finalizar</button>
+                      <button class="btn btn-danger hover-top btn-glow border-0" type="submit" id="btnsubmit" data-toggle="modal" data-target="#exampleModal">Finalizar</button>
                     </div>
                   </div>
                 </div>
@@ -557,7 +557,7 @@
         </button>
       </div>
      <div class="modal-body">
-        <form>
+       <form action="valida.php" method="post">
           <div class="form-group">
             <label for="recipient-name" class="col-form-label">Números Escolhidos</label>
             <input type="text" class="form-control" id="recipient-name">
@@ -651,6 +651,139 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <script >
+var n100 = document.getElementById("btn-check100");
+var n99 = document.getElementById("btn-check99");
+var n98 = document.getElementById("btn-check98");
+var n97 = document.getElementById("btn-check97");
+var n96 = document.getElementById("btn-check96");
+var n95 = document.getElementById("btn-check95");
+var n94 = document.getElementById("btn-check94");
+var n93 = document.getElementById("btn-check93");
+var n92 = document.getElementById("btn-check92");
+var n91 = document.getElementById("btn-check91");
+var n90 = document.getElementById("btn-check90");
+var n89 = document.getElementById("btn-check89");
+var n88 = document.getElementById("btn-check88");
+var n87 = document.getElementById("btn-check87");
+var n86 = document.getElementById("btn-check86");
+var n85 = document.getElementById("btn-check85");
+var n84 = document.getElementById("btn-check84");
+var n83 = document.getElementById("btn-check83");
+var n82 = document.getElementById("btn-check82");
+var n81 = document.getElementById("btn-check81");
+var n80 = document.getElementById("btn-check80");
+var n79 = document.getElementById("btn-check79");
+var n78 = document.getElementById("btn-check78");
+var n77 = document.getElementById("btn-check77");
+var n76 = document.getElementById("btn-check76");
+var n75 = document.getElementById("btn-check75");
+var n74 = document.getElementById("btn-check74");
+var n73 = document.getElementById("btn-check73");
+var n72 = document.getElementById("btn-check72");
+var n71 = document.getElementById("btn-check71");
+var n70 = document.getElementById("btn-check70");
+var n69 = document.getElementById("btn-check69");
+var n68 = document.getElementById("btn-check68");
+var n67 = document.getElementById("btn-check67");
+var n66 = document.getElementById("btn-check66");
+var n65 = document.getElementById("btn-check65");
+var n64 = document.getElementById("btn-check64");
+var n63 = document.getElementById("btn-check63");
+var n62 = document.getElementById("btn-check62");
+var n61 = document.getElementById("btn-check61");
+var n60 = document.getElementById("btn-check60");
+var n59 = document.getElementById("btn-check59");
+var n58 = document.getElementById("btn-check58");
+var n57 = document.getElementById("btn-check57");
+var n56 = document.getElementById("btn-check56");
+var n55 = document.getElementById("btn-check55");
+var n54 = document.getElementById("btn-check54");
+var n53 = document.getElementById("btn-check53");
+var n52 = document.getElementById("btn-check52");
+var n51 = document.getElementById("btn-check51");
+var n50 = document.getElementById("btn-check50");
+var n49 = document.getElementById("btn-check49");
+var n48 = document.getElementById("btn-check48");
+var n47 = document.getElementById("btn-check47");
+var n46 = document.getElementById("btn-check46");
+var n45 = document.getElementById("btn-check45");
+var n44 = document.getElementById("btn-check44");
+var n43 = document.getElementById("btn-check43");
+var n42 = document.getElementById("btn-check42");
+var n41 = document.getElementById("btn-check41");
+var n40 = document.getElementById("btn-check40");
+var n39 = document.getElementById("btn-check39");
+var n38 = document.getElementById("btn-check38");
+var n37 = document.getElementById("btn-check37");
+var n36 = document.getElementById("btn-check36");
+var n35 = document.getElementById("btn-check35");
+var n34 = document.getElementById("btn-check34");
+var n33 = document.getElementById("btn-check33");
+var n32 = document.getElementById("btn-check32");
+var n31 = document.getElementById("btn-check31");
+var n30 = document.getElementById("btn-check30");
+var n29 = document.getElementById("btn-check29");
+var n28 = document.getElementById("btn-check28");
+var n27 = document.getElementById("btn-check27");
+var n26 = document.getElementById("btn-check26");
+var n25 = document.getElementById("btn-check25");
+var n24 = document.getElementById("btn-check24");
+var n23 = document.getElementById("btn-check23");
+var n22 = document.getElementById("btn-check22");
+var n21 = document.getElementById("btn-check21");
+var n20 = document.getElementById("btn-check20");
+var n19 = document.getElementById("btn-check19");
+var n18 = document.getElementById("btn-check18");
+var n17 = document.getElementById("btn-check17");
+var n16 = document.getElementById("btn-check16");
+var n15 = document.getElementById("btn-check15");
+var n14 = document.getElementById("btn-check14");
+var n13 = document.getElementById("btn-check13");
+var n12 = document.getElementById("btn-check12");
+var n11 = document.getElementById("btn-check11");
+var n10 = document.getElementById("btn-check10");
+var n9 = document.getElementById("btn-check9");
+var n8 = document.getElementById("btn-check8");
+var n7 = document.getElementById("btn-check7");
+var n6 = document.getElementById("btn-check6");
+var n5 = document.getElementById("btn-check5");
+var n4 = document.getElementById("btn-check4");
+var n3 = document.getElementById("btn-check3");
+var n2 = document.getElementById("btn-check2");
+var n1 = document.getElementById("btn-check");
+
+
+
+
+
+
+document.getElementById("btnsubmit").onclick = function () {
+    if (n100.checked) {
+        console.log("100");
+   }
+
+    if (n99.checked) {
+        console.log("99");
+    }
+     if (n1.checked) {
+        console.log("99");
+    }
+};
+
+
+
+
+
+
+
+
+
+
+
+    </script>
 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
   </body>
